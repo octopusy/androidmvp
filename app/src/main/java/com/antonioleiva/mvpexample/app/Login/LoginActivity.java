@@ -41,7 +41,7 @@ public class LoginActivity extends Activity implements LoginView, View.OnClickLi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        Log.e("LoginActivity","test");
+        Log.e("LoginActivity","test1");
 
         progressBar = (ProgressBar) findViewById(R.id.progress);
         username = (EditText) findViewById(R.id.username);
